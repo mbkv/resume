@@ -51,7 +51,7 @@ export const resume: Page = {
         start: "October 2021",
         end: "November 2021",
         title: "Senior Software Engineer",
-        company: "PRIOS LLC",
+        company: "Principles: A Ray Dalio Company",
         summary:
           "Helping migrate an existing legacy app designed with B2B in mind to a completely self-serve and autonomous SaaS app",
         notes: [
