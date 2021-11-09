@@ -4,12 +4,14 @@ import { hideFromPrint } from "./styles";
 import { PersonalDetails } from "./utils";
 
 const BaseHeader = styled.div`
-  color: ${(props) => props.theme.secondary.color};
-  background-color: ${(props) => props.theme.secondary.background};
-
   padding: 8px 16px;
   display: flex;
   align-items: baseline;
+
+  @media not print {
+    color: ${(props) => props.theme.secondary.color};
+    background-color: ${(props) => props.theme.secondary.background};
+  }
 `;
 
 const Name = styled.h1`
@@ -32,6 +34,8 @@ export const Header = ({ name, email, number, github, ...props }: Props) => (
     <Link href={`https://github.com/${github}`}>github.com/{github}</Link>
     <Link href={`mailto:${email}`}>{email}</Link>
     <Link href={`tel:${number}`}>{number}</Link>
-    <PDF href="/MichaelBitokhov.pdf" download>PDF</PDF>
+    <PDF href="/MichaelBitokhov.pdf" download>
+      PDF
+    </PDF>
   </BaseHeader>
 );

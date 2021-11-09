@@ -16,7 +16,7 @@ const SectionTitle = styled(Title.withComponent("h3"))``;
 const SectionHeader = styled.header`
   display: flex;
   margin-top: 1rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 
   & > ${Hr} {
     margin: auto 0;

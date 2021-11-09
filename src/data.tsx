@@ -48,8 +48,20 @@ export const resume: Page = {
     ],
     experiences: [
       {
+        start: "October 2021",
+        end: "November 2021",
+        title: "Senior Software Engineer",
+        company: "PRIOS LLC",
+        summary:
+          "Helping migrate an existing legacy app designed with B2B in mind to a completely self-serve and autonomous SaaS app",
+        notes: [
+          "Worked on important refactoring for the UI API layer",
+          "Worked along side UX and QA into improving the checkout page",
+        ],
+      },
+      {
         start: "May 2019",
-        end: "now",
+        end: "September 2021",
         title: "Web UI Developer",
         company: "Lab49",
         summary:
@@ -67,12 +79,9 @@ export const resume: Page = {
         title: "Fullstack Developer",
         company: "AppliancesConnection (1StopCamera)",
         summary:
-          "Project lead of an internal project that's being used to replace legacy systems. Responsible for DevOps like upgrading infrastructure and monitoring performance. Also responsible for backend developer tasks like adding features and maintaining compatibility with legacy systems",
+          "Project lead of an internal project. Responsible for DevOps, creating and maintaining APIs, and performance optimizations",
         notes: [
-          "Started progress towards a continuous integration framework, with unit testing and merge checks",
           "Decreased page latency by 200ms, Solr response time by 500ms, Solr updating by 10 times, and page score by 30 points",
-          "Trained several junior developers as well as advised peers on backend architecture and code patterns",
-          "Resolved a 10 hour long DoS attack and subsequently hardened 5 servers using IPTables and static analysis checks",
           "Identified a security bug within the Laravel framework that allowed for a complete table dump while auditing Laravel's DBAL (commits: 3368494, e5042e1, 33739f9)",
         ],
       },
