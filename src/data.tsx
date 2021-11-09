@@ -53,7 +53,7 @@ export const resume: Page = {
         title: "Senior Software Engineer",
         company: "Principles: A Ray Dalio Company",
         summary:
-          "Helping migrate an existing legacy app designed with B2B in mind to a completely self-serve and autonomous SaaS app",
+          "Helping migrate an existing legacy app designed with B2B in mind into a completely self-serve and autonomous React SaaS app",
         notes: [
           "Worked on important refactoring for the UI API layer",
           "Worked along side UX and QA into improving the checkout page",
@@ -65,7 +65,7 @@ export const resume: Page = {
         title: "Web UI Developer",
         company: "Lab49",
         summary:
-          "Consulting for top multinational financial service companies, creating high performance, highly responsive webapps to meet client expectations. Working alongside top developers in fast paced agile projects",
+          "Consulting for top multinational financial service companies, creating high performance, highly responsive webapps to meet client expectations. Worked in numerous projects with the majority in React using hooks and some Angular",
         notes: [
           "Led UI development of a 2 year long project for realtime data aggregations",
           "Optimized updates to the DOM to allow for 20 updates a second for >10 charts and grids",
